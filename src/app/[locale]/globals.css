@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  min-height: 100vh;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu a {
+  display: inline-block;
+  padding: 3px 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #919191;
+}
